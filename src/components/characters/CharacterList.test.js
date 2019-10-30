@@ -2,7 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import CharacterList from './CharacterList';
 
-
 const characters = [
   {
     img: 'https://rickandmortyapi.com/api/character/avatar/327.jpeg',
