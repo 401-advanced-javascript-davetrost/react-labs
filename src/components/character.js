@@ -1,29 +1,32 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import styles from './character.css';
 
-const Character = ({ img, name, species }) => {
-  species = species || 'unknown origin';
+const Character = ({ characters }) => {
   return (
-    <div className="row">
-      <div className="col s12 m7">
-        <div className="card">
-          <div className="card-image">
-            <img src={img}/>
-            <span className="card-title">Name: {name}</span>
+    <>
+      {characters.map(character => {
+        const species = character.species || 'unknown origin';
+        return (
+          <div className={styles.Character + ' col s6 m4'} key={character.img}>
+            <div className="card">
+              <div className="card-image">
+                <img src={character.img}/>
+                <span className="card-title">{character.name}</span>
+              </div>
+              <div className="card-content">
+                <p>Species: <strong>{species}</strong></p>
+              </div>
+            </div>
           </div>
-          <div className="card-content">
-            <p>Species: {species}</p>
-          </div>
-        </div>
-      </div>
-    </div>
+        );
+      })}
+    </>
   );
 };
 
 Character.propTypes = {
-  img: propTypes.string.isRequired,
-  name: propTypes.string.isRequired,
-  species: propTypes.string
+  characters: propTypes.array.isRequired,
 };
 
 export default Character;
