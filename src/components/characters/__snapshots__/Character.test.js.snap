@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<div
+  className="Character col s6 m4"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-image"
+    >
+      <img
+        src="https://rickandmortyapi.com/api/character/avatar/327.jpeg"
+      />
+      <span
+        className="card-title"
+      >
+        Slow Mobius
+      </span>
+    </div>
+    <div
+      className="card-content"
+    >
+      <p>
+        Species: 
+        <strong>
+          Humanoid
+        </strong>
+      </p>
+    </div>
+  </div>
+</div>
+`;
