@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders Footer 1`] = `
+<footer
+  className="Footer"
+>
+  © Dave T (aka: the most ignorant Rick and Morty human being you have ever met)
+</footer>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character List component renders Character List 1`] = `
+<div
+  className="row"
+>
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/327.jpeg",
+        "name": "Slow Mobius",
+        "species": "Humanoid",
+      }
+    }
+    key="0"
+  />
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/370.jpeg",
+        "name": "Two Guys with Handlebar Mustaches",
+        "species": "Human",
+      }
+    }
+    key="1"
+  />
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/155.jpeg",
+        "name": "Harold",
+        "species": "Cronenberg",
+      }
+    }
+    key="2"
+  />
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/426.jpeg",
+        "name": "Greasy Grandma",
+      }
+    }
+    key="3"
+  />
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/487.jpeg",
+        "name": "Visor Rick",
+        "species": "Human",
+      }
+    }
+    key="4"
+  />
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/265.jpeg",
+        "name": "Pickle Rick",
+        "species": "unknown, Pickle",
+      }
+    }
+    key="5"
+  />
+  <Character
+    character={
+      Object {
+        "img": "https://rickandmortyapi.com/api/character/avatar/424.jpeg",
+        "name": "Pizza-person",
+        "species": "Humanoid, Pizza",
+      }
+    }
+    key="6"
+  />
+</div>
+`;

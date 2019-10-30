@@ -1,0 +1,6 @@
+.Character {
+  span {
+    width: 100%;
+    background-color: rgba(0, 60, 52, 0.6);
+  }
+}
