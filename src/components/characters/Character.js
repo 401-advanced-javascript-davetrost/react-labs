@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import styles from './character.css';
+import styles from './Character.css';
 
 const Character = ({ characters }) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import CharacterList from './character-list';
+import Header from './Header';
+import Footer from './Footer';
+import CharacterList from './characters/Character-list';
 
 const App = () => (
   <React.Fragment>
