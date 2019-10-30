@@ -1,5 +1,7 @@
 import React from 'react';
 import Character from './Character';
+import propTypes from 'prop-types';
+
 
 const characters = [
   {
@@ -38,12 +40,21 @@ const characters = [
   },
 ];
 
+
 const CharacterList = () => {
   return (
     <div className="row">
-      <Character characters={characters}/>
+      {characters.map((character, i) => {
+        return (
+          <Character key={i} character={character} />
+        );
+      })}
     </div>
   );
+};
+
+CharacterList.propTypes = {
+  characters: propTypes.array.isRequired,
 };
 
 export default CharacterList;
